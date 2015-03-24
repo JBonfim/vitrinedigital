@@ -1,0 +1,70 @@
+<style type="text/css">
+	#spanpreco{
+		margin-left: 80px;
+    
+
+	}
+	#detalheestabelecimento{
+		margin-left: 20px;
+		outline: 0 none;
+		list-style: none;
+		font-family: Arial;
+		font-size: 10px;
+    
+
+	}
+	#id_estabelecimento{
+		display: none;
+	}
+	#id_produto{
+		display: none;
+	}
+</style>
+
+
+
+<div id=" produtos">
+	<ul class="thumbnails baixo">
+		<% _.each(promocoes, function(promocao){ %>
+		<input class="input-xlarge focused" id="id_estabelecimento" type="text" 
+		      				value="<%= promocao.get('estabelecimento').id %>" >
+		<input class="input-xlarge focused" id="id_produto" type="text" 
+		      				value="<%= promocao.get('produto').id %>" >
+		<ul class="bp-product-list primeira">
+		<li log-pu-attribute="log-pu-attribute" class="product track_checkout_container unique-product">
+			<div class="image">
+				<a data-preco="2199.00" class="product-image tdproduto" data-position="1" title="imagem do produto " href="#">
+					<img class="bp_prevent_error resize100" src="../themes/images/products/11.jpg">
+				</a>
+			</div>
+			<div class="details ">
+				<div class="description">
+					<a data-position="1" title="" class="tdproduto" href="#">
+						<p class="description-desktop">
+						<span class="inner-description"><%= promocao.get('produto').nome %></span>
+						<span class="bp-product-list-info more-info">Info</span>
+
+						
+						</p>
+					</a>
+					
+					<br>
+					<a  href="" class="tdproduto">
+		      				<img alt="Americanas.com" src="../themes/images/logo81.gif"></a><br>
+						<a href="#" id="detalheestabelecimento" class="dtestab" >Mais detalhes do estabelecimento</a>
+				</div>
+			</div>
+			<div class="price-range">
+				<ul class="price-info">
+					<li>Preço: <a data-position="1" class="tdproduto" title=" " href="#">
+						<span class="value">R$ <span class="integer"><%= promocao.get('produto').preco %></span></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</li>
+		</ul>
+		<% }); %>
+
+	</ul>
+	</div>

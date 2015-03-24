@@ -1,0 +1,159 @@
+.company-header .company-decription .ebit-info {
+            display: inline;
+            float: left;
+            width: 80%;
+            margin: 0 1.6666666666666667%;
+            }
+            .company-header .company-decription .about {
+        width: 100%;
+        clear: both;
+        padding-top: 4%;
+        font-size: .8em;
+        line-height: 1.5em;
+        margin-bottom: 0;
+        }
+                .company-header .company-contacts {
+        display: inline;
+        float: left;
+        width: 40%;
+        margin: 30px .8333333333333334%;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 10px;
+        -moz-background-clip: padding;
+        border-radius: 10px;
+        background-clip: padding-box;
+        -webkit-box-shadow: 0 2px 4px #f7f7f7;
+        -moz-box-shadow: 0 2px 4px #f7f7f7;
+        -o-box-shadow: 0 2px 4px #f7f7f7;
+        box-shadow: 0 2px 4px #f7f7f7;
+        -webkit-box-shadow: 0 2px 4px #f7f7f7;
+        -moz-box-shadow: 0 2px 4px #f7f7f7;
+        box-shadow: 0 2px 4px #f7f7f7;
+        border: 1px solid #ececec;
+        float: right;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+        -webkit-transition: all 0 ease 0;
+        -moz-transition: all 0 ease 0;
+        -o-transition: all 0 ease 0;
+        -ms-transition: all 0 ease 0;
+        transition: all 0 ease 0;
+        }
+                .company-header .company-decription .send-review {
+        display: inline;
+        float: left;
+        width: 30%;
+        margin: 0 1.6666666666666667%;
+        margin: 0;
+        margin-bottom: 50px;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+        -webkit-transition: all 0 ease 0;
+        -moz-transition: all 0 ease 0;
+        -o-transition: all 0 ease 0;
+        -ms-transition: all 0 ease 0;
+        transition: all 0 ease 0;
+        }
+          .company-header {
+      display: inline;
+      float: left;
+      width: 85%;
+      margin: 0 .8333333333333334%;
+      color: #8c8c8c;
+      }
+          .company-header .company-decription {
+            display: inline;
+            float: left;
+            width: 48.333333333333336%;
+            margin: 0 .8333333333333334%;
+            margin-right: 4.999999999999999%;
+            -webkit-transition: all .2s linear;
+            -moz-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear;
+            -webkit-transition: all 0 ease 0;
+            -moz-transition: all 0 ease 0;
+            -o-transition: all 0 ease 0;
+            -ms-transition: all 0 ease 0;
+            transition: all 0 ease 0;
+            }
+.company-header .company-decription .send-review .bp-btn:hover {
+text-decoration: none;
+}
+.company-header .company-decription .send-review .bp-btn {
+font-size: .8em;
+width: 100%;
+margin: 15% 0 0 0;
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+-o-transition: all .2s linear;
+transition: all .2s linear;
+-webkit-transition: all 0 ease 0;
+-moz-transition: all 0 ease 0;
+-o-transition: all 0 ease 0;
+-ms-transition: all 0 ease 0;
+transition: all 0 ease 0;
+}
+.bp-btn.light-blue:hover {
+background-color: #148ce8;
+}
+.bp-btn.light-blue {
+background-color: #169aff;
+border: 1px solid #169aff;
+-moz-background-clip: border-box;
+-webkit-background-clip: border-box;
+background-clip: border-box;
+-webkit-transition: .2s;
+-moz-transition: .2s;
+-o-transition: .2s;
+-ms-transition: .2s;
+transition: .2s;
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+-o-transition: all .2s linear;
+transition: all .2s linear;
+-webkit-transition: all .2s linear;
+-moz-transition: all .2s linear;
+-o-transition: all .2s linear;
+transition: all .2s linear;
+}
+a:hover {
+outline: 0;
+}
+
+.bp-btn {
+-webkit-border-radius: 20px;
+-webkit-background-clip: padding-box;
+-moz-border-radius: 20px;
+-moz-background-clip: padding;
+border-radius: 20px;
+background-clip: padding-box;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-o-border-radius: 20px;
+border-radius: 20px;
+cursor: pointer;
+display: block;
+font-size: 1.2em;
+padding: 11px 0 9px;
+font-family: 'AlwynNew',Arial;
+text-align: center;
+text-decoration: none;
+border: 0 none;
+color: #fff;
+text-transform: uppercase;
+}
+

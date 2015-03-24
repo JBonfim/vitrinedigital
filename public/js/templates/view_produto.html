@@ -1,0 +1,78 @@
+<style type="text/css">
+  .butonMenu{
+    margin: 0em 0em;
+
+  }
+  #idProduto{
+    display: none;
+  }
+</style>
+<div class="listusr">
+   
+    
+    <input class="edit-input" value="<%- nome %>">
+    <input class="edit-preco" value="<%- preco %>">
+    <input class="edit-categoria" value="<%- categoria %>">
+    <input class="input-xlarge focused" id="idProduto" type="text" 
+                  value="<%- id %>" >
+                  
+   
+
+<div class="row-fluid">
+
+              
+                        <div class="block">
+                            <div class="navbar navbar-inner block-header">
+                                <div class="muted pull-left"></div>
+                            </div>
+                            <div class="block-content collapse in">
+                                <div class="span12">
+                    <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              
+                              <th>Nome</th>
+                              <th>Preço</th>
+                              <th>Categoria</th>
+                                                                                      
+                            </tr>
+                            
+                          </thead>
+                          <tbody>
+                          	
+	                            <tr>
+                                
+	                              <td><%- nome %></td>
+	                              <th><%- preco %></th>
+	                              <th><%- categoria %></th>
+                                <th>
+                                
+
+
+                                                              
+                              </th>
+	                                                       
+	                            </tr>
+                            
+                          </tbody>
+                        </table>
+                            <div class="butonMenu">
+                              <button  class="btn btn-success edit" id="add-estab">
+                                <i class="icon-pencil icon-white"></i>
+                                editar
+                                </button>
+                                <button  class="destroy btn  btn-danger" >
+                                  <i class="icon-remove icon-white"></i>
+                                delete
+                                </button>
+                                <button  class="btn btn-warning addIMG" >
+                                <i class="icon-picture"></i>
+                                imagem</button>
+                              </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
