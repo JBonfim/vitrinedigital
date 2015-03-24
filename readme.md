@@ -1,5 +1,7 @@
 
-Projeto Desenvolvido na Disciplina Projeto Avançado 1 
+Projeto Desenvolvido na Disciplina Projeto Avançado 1.
+
+
 Foi usado a linguagem ruby com sinatra e backbone.js
 
 
